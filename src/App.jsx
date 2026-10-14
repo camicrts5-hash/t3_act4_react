@@ -11,7 +11,7 @@ export default function App() {
       <TarjetaPerfil 
         nombre="Erandi Camila Ruíz Jiménez" 
         carrera="Ingeniería en Sistemas Computacionales" 
-        cuatrimestre="5to Semestre" 
+        semestre="5to Semestre" 
       />
       <ContadorLikes />
       <ListaMaterias />

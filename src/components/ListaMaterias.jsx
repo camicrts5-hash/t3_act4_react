@@ -8,7 +8,7 @@ export function ListaMaterias() {
 
   return (
     <div style={{ border: '1px solid #ddd', padding: '15px', borderRadius: '8px', margin: '10px 0', backgroundColor: '#f9f9f9' }}>
-      <h3>Materias del Cuatrimestre (Listas y Keys)</h3>
+      <h3>Materias del semestre (Listas y Keys)</h3>
       <ul>
         {materias.map((materia) => (
           <li key={materia.id}>{materia.nombre}</li>
